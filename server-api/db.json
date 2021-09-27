@@ -1,0 +1,25 @@
+{
+  "contacts": [
+    {
+      "id": 60,
+      "firstName": "Charm",
+      "lastName": "Grava",
+      "email": "gravacharm@gmail.com",
+      "enterPrise": "1",
+      "birthday": "1994-12-10"
+    },
+    {
+      "firstName": "Vianney",
+      "lastName": "Labay",
+      "email": "labayvianney@gmail.com",
+      "enterPrise": "2",
+      "birthday": "1994-06-17",
+      "nameError": "",
+      "lnameError": "",
+      "emailError": "",
+      "enterPriseError": "",
+      "birthdayError": "",
+      "id": 61
+    }
+  ]
+}
