@@ -135,7 +135,7 @@ class AddContact extends React.Component{
                 <h2>Add Contact</h2>
                 <form className="ui form" onSubmit={this.add}>
                     <div className="field">
-                        <label>First Name</label>
+                        <label>First Name:</label>
                         <input type="text" 
                         name="name" 
                         placeholder="First Name" 
@@ -146,7 +146,7 @@ class AddContact extends React.Component{
                         <div style={{ color: "red"}}>{this.state.nameError}</div>
                     </div>
                     <div className="field">
-                    <label>Last Name</label>
+                    <label>Last Name:</label>
                         <input type="text" 
                         name="lastName" 
                         placeholder="Last Name"
@@ -157,7 +157,7 @@ class AddContact extends React.Component{
                          <div style={{ color: "red"}}>{this.state.lnameError}</div>
                     </div>
                     <div className="field">
-                    <label>Email</label>
+                    <label>Email:</label>
                         <input type="email" 
                         name="email" 
                         size="30"
@@ -167,7 +167,7 @@ class AddContact extends React.Component{
                          <div style={{ color: "red"}}>{this.state.emailError}</div>
                     </div>
                     <div className="field">
-                    <label>Enterprise ID</label>
+                    <label>Enterprise ID:</label>
                         <input type="text" 
                         name="enterprise" 
                         
@@ -179,7 +179,7 @@ class AddContact extends React.Component{
                         <div style={{ color: "red"}}>{this.state.enterPriseError}</div>
                     </div>
                     <div className="field">
-                    <label>Birthday</label>
+                    <label>Birthday:</label>
                         <input type="date" 
                         name="date" 
                        
